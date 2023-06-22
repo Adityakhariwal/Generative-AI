@@ -16,4 +16,17 @@ This was not very efficient model and was giving an accuracy of 0.76285714285714
 
 setting the values of n estimators = 100, learning rate = 0.1, max depth = 3, random state = 20 , I got the accuracy of 0.8542857142857143
 # Training Using CNN
+It consists of multiple layers, including convolutional layers, pooling layers, and fully connected layers.
+Here we have to adjust the image dimensions according to neural layer size
+Batch size was set to 100 , epoches was set to 30 and the model was trained using training dataset which gives the accuracy of 0.8428571224212646 and F1 score of 0.6680080482897384
+![image](https://github.com/Adityakhariwal/Generative-AI/assets/104224483/1ae6d146-957b-411b-918f-fa81f390bedb)
 
+# Training Using ViT
+![image](https://github.com/Adityakhariwal/Generative-AI/assets/104224483/ce699b5a-471d-42e6-9f2a-e0dbbc0552cf)
+
+Patch size is 5X5 , batch size = 64 , learning rate = 0.0001 gives the average loss of 0.08
+
+ViT took more time to run as compared to any other models for same number of epochs and batch size, but gave more accurate results.
+
+# Results 
+F1 score of test data set = 0.69155844 on bitgrit submission
