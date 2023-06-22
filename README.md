@@ -1,4 +1,4 @@
-![image](https://github.com/Adityakhariwal/Generative-AI/assets/104224483/716b3859-340c-442f-ba2f-91015899cd1b)# Problem Statement
+# Problem Statement
 With the advent of generative AI, it has become easily difficult to separate real data from AI-Generated.
 The goal is to develop a model that can identify a fake photo created by AI.
 # Motivation
@@ -9,3 +9,9 @@ The training dataset consists of 5250 examples with 1200 columns is used for tra
 The label for the fake image was 0 and of real image was 1
 # Training Using Logistic Regression
 ![image](https://github.com/Adityakhariwal/Generative-AI/assets/104224483/1fec55d6-6187-4894-9d7c-7992ce687c41)
+This was not very efficient model and was giving an accuracy of 0.7628571428571429
+# Training Using Gradient Boosting
+![image](https://github.com/Adityakhariwal/Generative-AI/assets/104224483/785ce479-403b-4a64-a6b6-f524e528745d)
+setting the values of n estimators = 100, learning rate = 0.1, max depth = 3, random state = 20 , I got the accuracy of 0.8542857142857143
+# Training Using CNN
+
